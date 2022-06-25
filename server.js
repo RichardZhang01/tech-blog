@@ -14,11 +14,14 @@ const hbs = exphbs.create({ helpers });
 
 const sess = {
   secret: 'Super secret secret',
-  cookie: {},
+  // 1000ms/s * 60s/min * 60mins/hr * 24hr/day * 30days/month = 2,592,000,000ms/month (expires in a month)
+  cookie: { maxAge: 1000 * 60 * 60 * 24 * 30},
   resave: false,
   saveUninitialized: true,
   store: new SequelizeStore({
-    db: sequelize
+    db: sequelize,
+    checkExpirationInterval: 1000 * 60 * 60,
+    expiration: 1000 * 60 * 60 * 24 * 30 
   })
 };
 
