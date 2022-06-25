@@ -42,14 +42,14 @@ User.init(
         hooks: {
             beforeCreate: async (newUser) => {
                 try {
-                    newUser.password = await bcrypt.hash(newReader.password, 10);
+                    newUser.password = await bcrypt.hash(newUser.password, 10);
                     return newUser;
                 } catch (err) {
                   console.log(err);
                     return err;
                 }
             },
-            
+
             beforeUpdate: async (updatedUser) => {
                 try {
                     updatedUser.password = await bcrypt.hash(updatedUser.password, 10);
