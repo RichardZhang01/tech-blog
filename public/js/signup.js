@@ -16,7 +16,10 @@ async function signUpFormHandler(event) {
             headers: { 'Content-Type': 'application/json' }
         });
         if (response.ok) {
-            document.location.replace('/dashboard');
+            function replaceLocation() {
+                document.location.replace('/dashboard')
+            }
+            setTimeout(replaceLocation, 200);
         } else {
             alert('Failed to sign up.');
         };
