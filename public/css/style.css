@@ -36,3 +36,11 @@ body {
     text-decoration: none;
     color: blue;
 }
+
+.comment-form {
+    margin: 5px 0 25px 0;
+}
+
+.form-textarea{
+    height: 75px;
+}
