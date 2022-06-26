@@ -22,11 +22,13 @@
                     <li>
                         <a href="/">Home</a>
                     </li>
-                    {{#if loggedIn}}
                     <li>
                         <a href="/dashboard">Dashboard</a>
                     </li>
-                        <button id="logout" class="btn-no-style">Log Out</button>
+                    {{#if loggedIn}}
+                    <li>
+                        <a id="logout">Log Out</a>
+                    </li>
                     {{else}}
                     <li>
                         <a href="/login">Log In</a>
@@ -43,7 +45,6 @@
         {{{ body }}}
     </main>
 
-    <script src="https://cdn.jsdelivr.net/npm/foundation-sites@6.7.4/dist/js/foundation.min.js" crossorigin="anonymous"></script>
     {{#if loggedIn}}
     <script src="/js/logout.js"></script>
     {{/if}}
