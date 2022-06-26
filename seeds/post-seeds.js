@@ -13,7 +13,7 @@ const postData = [
     },
     {
         title: "10 Tips for New Programmers",
-        post_content: "1. Ask Questions, 2. Be Inquisitive, 3. Leave Your Comfort Zone, 4. Stay as Up-to-Date as You Can, 5. Look for Open Source Projects and Try New Libraries, 6. Be Organized, 7. Keep it Simple, 8. Be Mindful of your Interpersonal Skills, 9. Work on Your Work/Life Balance, 10. Love What You do and do What You Love",
+        post_content: "1. Ask questions, 2. Be inquisitive, 3. Leave your comfort zone, 4. Stay as up-to-date as you can, 5. Look for open source projects and try new libraries, 6. Be organized, 7. Keep it simple, 8. Be mindful of your interpersonal skills, 9. Work on your work/life balance, 10. Love what you do and do what you love",
         user_id: 2
 
     },

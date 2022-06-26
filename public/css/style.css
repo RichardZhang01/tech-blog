@@ -1,0 +1,33 @@
+body {
+    background-color:rgb(246, 248, 248);
+}
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 9999;
+}
+
+.sticky + .content {
+    padding-top: 10vh;
+}
+
+.menu {
+    list-style: none;
+}
+
+.nav-bar {
+    box-shadow: 2px 8px 12px 3px rgba(0,0,0,0.15);
+    background-color:rgb(246, 248, 248);
+    padding: 4px;
+}
+
+.menu a {
+    text-decoration: none;
+}
+
+.card a {
+    text-decoration: none;
+    color: aliceblue;
+}
