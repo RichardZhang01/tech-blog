@@ -2,7 +2,7 @@
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) 
 
-[![Tech-blog-app-button](https://www.herokucdn.com/deploy/button.svg)](https://richard-zhang-note-taker.herokuapp.com/)
+[![Tech-blog-app-button](https://www.herokucdn.com/deploy/button.svg)](https://afternoon-peak-59556.herokuapp.com/)
 
 
 ## Description
@@ -23,7 +23,7 @@
 
 ## <a id="installation"></a>Installation
 
-This application is deployed to Heroku, and you can access it [here](https://richard-zhang-note-taker.herokuapp.com/).
+**This application is deployed to Heroku, and you can access it [here](https://afternoon-peak-59556.herokuapp.com/).**
 
 Alternatively, you can clone this repo. 
 
@@ -57,7 +57,7 @@ Then create the database by running:
 
 ## <a id="usage"></a>Usage
 
-This application is deployed to Heroku, and you can access it [here](https://richard-zhang-note-taker.herokuapp.com/).
+**This application is deployed to Heroku, and you can access it [here](https://afternoon-peak-59556.herokuapp.com/).**
 
 Alternatively, once the application is installed and opened in Visual Studio Code, or navigated to using Git Bash (or similar command-line tool), run: 
 
@@ -69,7 +69,7 @@ Once the server has been started, in your browser, navigate to http://localhost:
 
 ## <a id="demonstration"></a> Demonstration
 
-This application is deployed to Heroku, and you can access it [here](https://richard-zhang-note-taker.herokuapp.com/).
+**This application is deployed to Heroku, and you can access it [here](https://afternoon-peak-59556.herokuapp.com/).**
 
 Some screenshots:
 
