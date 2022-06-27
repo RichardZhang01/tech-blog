@@ -2,14 +2,16 @@
     <div class="col-sm-10 col-lg-8">
         <article class="card mx-3">
             <div class="card-header">
+                <a href="/post/{{id}}">
                 <div class="flex-row justify-space-between">
-                    <a href="/post/{{id}}">
+                    <div class="header-text">
                         {{title}}
-                    </a>
-                    <div>
+                    </div>
+                    <div class="header-text">
                         Posted by {{user.username}} on {{format_date created_at}}
                     </div>
                 </div>
+                </a>
             </div>
             <div class="card-body">  
                     {{post_content}}

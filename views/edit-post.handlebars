@@ -2,20 +2,20 @@
     <div class="col-sm-10 col-lg-8">
         <section class="mx-3">
             <div class="display-flex justify-space-between row">
-                <a class="ml-3" href="/dashboard">&larr; Back to Dashboard</a>
-                <a class="mr-3" href="/post/{{post.id}}">Go to Post &rarr; </a>
+                <a class="ml-3 edit-nav" href="/dashboard">&larr; Back to Dashboard</a>
+                <a class="mr-3 edit-nav" href="/post/{{post.id}}">Go to Post &rarr; </a>
             </div>
             <div class="card">
-                <div class="card-header text-center">
+                <div class="card-header text-center dash-header">
                     Edit Post
                 </div>
-                <div class="card-body mx-2">
+                <div class="card-body">
                     <form class="edit-post-form">
-                        <div class="mb-2">
+                        <div class="mb-2 mx-1">
                             <input class="form-input" type="text" name="post-title" value="{{post.title}}" />
                             <textarea class="form-textarea" name="post-content">{{post.post_content}}</textarea>
                         </div>
-                        <div class="mb-2">
+                        <div class="mb-2 mx-1">
                             <button class="btn" type="submit">Update Post</button>
                             <button class="btn delete-post-btn" type="button">Delete Post</button>
                         </div>
