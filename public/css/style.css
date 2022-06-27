@@ -55,7 +55,9 @@ body {
 }
 
 .card-header:hover, 
-.card-header:focus .header-text {
+.card-header:focus,
+a:hover,
+a:focus .header-text {
     text-shadow: 0px 0px 10px var(--nav-link-primary), 
     0px 0px 10px var(--nav-link-primary), 
     0px 0px 10px var(--nav-link-primary);
@@ -130,5 +132,9 @@ a:visited {
 }
 
 .dash-card {
+    text-shadow: none;
+}
+
+h1 {
     text-shadow: none;
 }

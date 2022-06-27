@@ -1,8 +1,8 @@
 <div class="display-flex justify-center row">
     <div class="col-sm-10 col-lg-8">
         <article class="card mx-3">
-            <div class="card-header">
-                <a href="/post/{{id}}">
+            <a href="/post/{{id}}">
+                <div class="card-header">
                     <div class="flex-row justify-space-between">
                         <div class="header-text">
                             {{title}}
@@ -11,8 +11,8 @@
                             Posted by {{user.username}} on {{format_date created_at}}
                         </div>
                     </div>
-                </a>
-            </div>
+                </div>
+            </a>
             <div class="card-body">  
                     {{post_content}}
                 <div class="card-footer mt-1">  
