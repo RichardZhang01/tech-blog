@@ -63,7 +63,7 @@ Alternatively, once the application is installed and opened in Visual Studio Cod
 
       npm start 
 
-The application is written to run on port 3001, but you can change the port number by altering it in the server.js file.
+The application is written to run on port 3001, but you can change the port number by altering it in the `server.js` file.
 
 Once the server has been started, in your browser, navigate to http://localhost:3001
 
