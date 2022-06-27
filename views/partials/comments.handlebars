@@ -2,7 +2,9 @@
     <div class="col-sm-10 col-lg-8">
         <section class="comments card mx-3"> 
             <div class="card-body">
-                {{post.comments.length}} {{format_plural 'comment' post.comments.length}}
+                <div class="mx-1">
+                    {{post.comments.length}} {{format_plural 'comment' post.comments.length}}
+                </div>
 
                 {{#if loggedIn}}
 
