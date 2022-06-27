@@ -18,7 +18,7 @@ async function loginFormHandler(event) {
             function replaceLocation() {
                 document.location.replace('/dashboard')
             }
-            setTimeout(replaceLocation, 200);
+            setTimeout(replaceLocation, 500);
         } else {
             alert("Incorrect email or password. Please try again!");
         }

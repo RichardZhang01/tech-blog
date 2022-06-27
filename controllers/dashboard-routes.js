@@ -6,6 +6,9 @@ router.get('/', withAuth, async (req, res) => {
     console.log(req.session);
     try {
         const dbPostData = await Post.findAll({
+            where: {
+                user_id: req.session.user_id
+            },
             attributes: [
                 'id',
                 'title',
@@ -24,6 +27,7 @@ router.get('/', withAuth, async (req, res) => {
         });
 
         const posts = dbPostData.map(post => post.get({ plain: true }));
+        console.log(posts);
         res.render('dashboard', { posts, loggedIn: true });
         
     } catch (err) {

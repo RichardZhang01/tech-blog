@@ -19,7 +19,7 @@ async function signUpFormHandler(event) {
             function replaceLocation() {
                 document.location.replace('/dashboard')
             }
-            setTimeout(replaceLocation, 200);
+            setTimeout(replaceLocation, 500);
         } else {
             alert('Failed to sign up.');
         };
